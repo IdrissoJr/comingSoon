@@ -1,0 +1,68 @@
+
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 768px) AND (max-width: 991px) {
+	
+}
+
+@media (max-width: 991px) {
+	#coming #soon {
+		top: 180px !important;
+		p.display-2 {
+			font-size: 3.2rem !important;
+		}
+		p.lead {
+			font-size: 1rem !important;
+		}
+		#countdown span {
+			font-size: 1.2rem;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+ 	#coming {
+ 		#logo .h2 {font-size: 1.85rem;}
+ 		#btns .btn-sm {
+ 			font-size: .75rem;
+ 		}
+	  	#soon {
+			top: 120px !important;
+			p.display-2 {
+			font-size: 2.5rem !important;
+			}
+			p.lead {
+				font-size: .8rem !important;
+			}
+			#countdown span {
+				font-size: 1rem;
+			}
+		}
+		#travel {
+			right: 20px; left: 20px;
+			top: 350px;
+			div#earth img {
+				width: 110px !important;
+			}
+			div#rocket img {
+				width: 100px !important;
+				margin-top: 10px;
+			}
+		}
+	}
+	footer {
+		ul .list-inline-item:not(:last-child) {
+			margin-right: 2px;
+			span {
+				font-size: .75em !important;
+			}
+		}
+		p.float-right {
+			font-size: .8rem;
+			margin-top: 3px;
+		}
+	}
+}
