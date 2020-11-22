@@ -1,7 +1,7 @@
 /*global $, jQuery, alert*/
 $(function () {
     'use strict';
-    $('#countdown').countdown('2018/1/1', function(event) {
+    $('#countdown').countdown('2030/1/1', function(event) {
 	  var $this = $(this).html(event.strftime(''
 	    + '<span>%w</span> Weeks '
 	    + '<span>%d</span> Days '
